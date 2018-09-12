@@ -43,6 +43,15 @@ img {
   color: #4e6571;
 }
 
+#particles-js{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  /* height: 100vh; */
+}
+
 /* Hero Section */
 header.hero {
   background: url(../assets/background.png) no-repeat center center fixed;
@@ -56,7 +65,7 @@ header.hero {
 
 header.hero .hero-text {
   margin-top: 20%;
-  margin-bottom: 20%;
+  margin-bottom: 30%;
 }
 header.hero .row {
   position: relative;
@@ -558,8 +567,10 @@ ul.main-nav.show-it {
   }
 }
 
-
-
+.clickable{
+  z-index: 2 !important;
+  position: absolute;
+}
 
 
 
