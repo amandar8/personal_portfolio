@@ -10,15 +10,15 @@
 
   <!-- Bootstrap -->
   <link href="./css/bootstrap.min.css" rel="stylesheet">
-  <link href="./css/bootstrap-theme.css" rel="stylesheet">
+  <link href="./css/bootstrap-theme.min.css" rel="stylesheet">
   <link rel="stylesheet" href="./css/swiper.min.css">
   <link href="./css/style.css" rel="stylesheet">
 
   <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Open+Sans:300,400,700" rel="stylesheet">
 
-  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <script src="js/html5shiv.min.js"></script>
+  <script src="js/respond.min.js"></script>
 
 </head>
 
@@ -30,7 +30,7 @@
       <div class="row">
         <div class="col-md-6 col-md-offset-6 col-xs-12">
           <nav>
-            <div id="menu-toggle">
+            <div id="menu-toggle" class="clickable2">
               <div class="hamburger">
                 <span class="line"></span>
                 <span class="line"></span>
@@ -41,7 +41,7 @@
                 <span class="line"></span>
               </div>
             </div>
-            <ul class="main-nav">
+            <ul class="main-nav clickable">
               <li><a href="#">Home</a></li>
               <li><a href="#portfolio">Portfolio</a></li>
               <li><a href="#">About</a></li>
@@ -52,7 +52,7 @@
           <div class="hero-text">
             <h1><span>Hi, I am</span><br>Amanda Rutherfoord.</h1>
             <h3>Junior Web Developer in Austin, TX</h3>
-            <a href="#" class="btn btn-lg clickable">Know More</a>
+            <a href="#" class="btn btn-lg clickable know">Know More</a>
             <ul class="social-links clickable">
               <li class="label">Join me here</li>
               <li><a href="http://www.linkedin.com/in/amanda-rutherfoord"><img src="./assets/linkedin.png"></a></li>
@@ -295,7 +295,6 @@
   <script src="js/particles.js"></script>
   <script>
   particlesJS.load('particles-js', 'particles.json', function() {
-    console.log('callback - particles.js config loaded');
   });
   </script>
 </body>

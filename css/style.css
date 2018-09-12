@@ -379,6 +379,7 @@ nav {
   width: 40px;
   clear: both;
   float: right;
+  margin-top: -20px;
 }
 #menu-toggle span.line {
   display: block;
@@ -448,6 +449,8 @@ ul.main-nav {
   opacity: 0;
   visibility: hidden;
   transition: .25s all;
+  margin-right: 20px;
+  margin-top: -20px;
 }
 ul.main-nav li {
   display: inline-block;
@@ -572,5 +575,20 @@ ul.main-nav.show-it {
   position: absolute;
 }
 
+.clickable2{
+  z-index: 2 !important;
+  position: absolute;
+  right: 0;
+}
 
-
+@media only screen and (max-width: 425px){
+  .main-nav li a {
+    font-size: 55% !important;
+  }
+  .know {
+    width: 30%;
+    right: 5%;
+    padding: 0;
+    padding-top: 10 !important;
+  }
+}
